@@ -2,7 +2,7 @@
 
 ![Build Status](https://github.com/rust-lang/book/workflows/CI/badge.svg)
 
-This project is used to learn rust language from simple to deep, and then to strengthen learning in multiple projects. It is used to help novice and experienced developers. It mainly includes the following modules.
+This project is used to learn rust language from simple to deep, and then to strengthen learning in multiple module. It is used to help novice and experienced developers. It mainly includes the following modules.
 
 ## Modules:
 
