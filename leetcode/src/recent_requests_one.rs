@@ -28,12 +28,10 @@ impl RecentCounter {
 #[test]
 fn test_ping() {
     let mut recent_counter = RecentCounter::new();
-
-    recent_counter.queue.push_back(0);
     recent_counter.queue.push_back(1);
     recent_counter.queue.push_back(100);
     recent_counter.queue.push_back(3001);
     recent_counter.queue.push_back(3002);
     
-    println!("size: {}", recent_counter.ping(5116156));
+    println!("size: {}", recent_counter.ping(4005));
 }

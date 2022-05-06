@@ -76,16 +76,6 @@ fn ping(t: usize) -> usize{
 
 #[test]
 fn test_ping() {
-
-    let mut queue1: Queue<&str> = Queue::new();
-    queue1.offer("RecentCounter");
-    queue1.offer("ping");
-    queue1.offer("ping");
-    queue1.offer("ping");
-    queue1.offer("ping");
-
-    ping(queue1.size());
-
     let mut queue2: Queue<Vec<u32>> = Queue::new();
 
     let vec_one = Vec::new();
